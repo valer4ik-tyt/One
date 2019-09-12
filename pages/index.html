@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CruiserAddition</title>
+</head>
+<body>
+
+<!--  Svg   -->
+    <svg style="display: none;">
+
+        <symbol id="search" viewBox="0 0 512 512">
+            <g>
+                <path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,
+                11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,
+                0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,
+                52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z"/>
+            </g>
+        </symbol>
+    </svg>
+<!--   Header   -->
+    <header>
+        <div class="container">
+            <div class="hd__content">
+                <a href="#" class="hd__menu">
+                    <span class="hd__item"></span>
+                    <span class="hd__item-1"></span>
+                    <span class="hd__item-2"></span>
+                </a>
+                <div class="hd__logo"><span>Cruiser</span>Addiction</div>
+                <div class="hd__search">
+                    <div class="icon__search">
+                        <img class="hd__img" src="img/icon.png" alt="">
+                    </div>
+                    <svg class="search__icon">
+                        <use xlink:href="#search"></use>
+                    </svg>
+                    Search by Part Number
+                </div>
+                <div class="hd__change">
+                    <div class="hd__lang">ENG</div>
+                    <div class="hd__currency">USD</div>
+                </div>
+                <div class="hd__bl">
+                    <div class="hd__basket">
+                        <img class="hd__user" src="img/basket.png" alt="">
+                        <div class="bag">5</div>
+                    </div>
+                    <div class="hd__login">
+                        <a href="#">
+                            <img class="hd__user" src="img/user.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="container">
+            <div class="intro__title">
+                <div class="intro__text">
+                    Home / <span class="intro_span">Check Out</span>
+                </div>
+                <div class="button__continue">
+                    <a href="#" class="button__continue__text">continue shopping</a>
+                </div>
+            </div>
+            <div class="intro__content">
+                <div class="intro__shipping__address">
+                    <div class="shipping__address__name">
+                        shipping address
+                    </div>
+                    <div class="block__form">
+                        <form action="#" autocomplete="on" class="shipping__form">
+                            <fieldset>
+                                <label for="email__name" class="email__name">Your email*</label>
+                                <input type="email" id="email__name" placeholder="This is a required field">
+                                <div class="you__already">
+                                    You already have an account with us.
+                                    <P><a class="sign__in" href="#">Sign in</a> continue in guest</P>
+                                </div>
+                                <div class="selection__block">
+                                    <a class="block__google">
+                                        <img class="image__block" src="img/intro_img/google.png" alt="This is image">
+										Google
+                                    </a>
+                                    <a class="block__facebook">
+                                        <img class="image__block" src="img/intro_img/facebook.png" alt="This is image">
+										Facebook
+                                    </a>
+                                </div>
+								<div class="form__name">
+									<div class="first__name">
+										<label for="first__name">First name*</label>
+										<input id="first__name" type="text" placeholder="This is a required field">
+									</div>
+									<div class="last__name">
+										<label for="last__name">Last name*</label>
+										<input id="last__name" type="text" placeholder="This is a required field">
+									</div>
+									<div class="street__adress__1">
+										<label for="street__adress__1">Street adress 1*</label>
+										<input id="street__adress__1" type="text" placeholder="This is a required field">
+									</div>
+									<div class="street__adress__2">
+										<label for="street__adress__2">Street adress 2*</label>
+										<input id="street__adress__2" type="text" placeholder="This is a required field">
+									</div>
+									<div class="city">
+										<label for="city">City*</label>
+										<input id="city" type="text" placeholder="This is a required field">
+									</div>
+									<div class="state">
+										<label for="state">State*</label>
+										<input id="state" type="text" placeholder="This is a required field">
+									</div>
+									<div class="postal__code">
+										<label for="postal__code">ZIP/Postal code*</label>
+										<input id="postal__code" type="text" placeholder="This is a required field">
+									</div>
+									<div class="country">
+										<label for="country">Country*</label>
+										<input id="country" type="text" placeholder="This is a required field">
+									</div>
+									<div class="phone">
+										<span class="toggle"
+											title="Please select if this phone number is a WhatsApp number">
+											<input type="radio" name="toggle" value="off">
+											<input type="radio" name="toggle" value="on">
+											<span class="switch"></span>
+										</span>
+										<label for="phone">Phone:</label>
+										<input id="phone" type="text" placeholder="This is a required field">
+									</div>
+									<div class="create1">
+										<input id="create1" type="checkbox">
+										<label for="create1">Create Account</label>
+									</div>
+									<div class="create2">
+										<input id="create2" type="checkbox">
+										<label for="create2">Create Account</label>
+									</div>
+									<button class="button__form" type="submit" value="save">
+										Save
+									</button>
+								</div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="intro__order__summary">
+					<div class="summary__block">
+						<div class="order__summary__name">
+							order summary
+						</div>
+						<div class="intro__block__right">
+							<div class="block__intro">
+								<div class="picture">picture</div>
+								<div class="brand">brand</div>
+								<div class="name">name</div>
+								<div class="price">price</div>
+								<div class="quantity">quantity</div>
+								<div class="subtotal">subtotal</div>
+							</div>
+							<div class="block__content">
+								<div class="picture block__picture">
+									<div class="number">1</div>
+									<img src="img/intro_img/image.png" alt="">
+								</div>
+								<div class="brand block__brand">
+									toyota
+								</div>
+								<div class="name block__name">
+									New OEM Toyota Land Cruiser 80 Series Or Lexus LX 450 Air...
+									<p class="block__name__part">Part number: <b>1626210011</b></p>
+								</div>
+								<div class="price block__price">
+									$125.00
+								</div>
+								<div class="quantity block__quantity">
+									20
+								</div>
+								<div class="subtotal block__subtotal">
+									$2500.00
+									<div class="subtotal__image">
+										<form action="#">
+											<input id="key" type="checkbox">
+											<label class="key" for="key"></label>
+											<img class="img__br" src="img/intro_img/pd.png" alt="">
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="block__content">
+								<div class="picture block__picture">
+									<div class="number">2</div>
+									<img src="img/intro_img/image.png" alt="">
+								</div>
+								<div class="brand block__brand">
+									toyota
+								</div>
+								<div class="name block__name">
+									New OEM Toyota Land Cruiser 80 Series Or Lexus LX 450 Air...
+									<p class="block__name__part">Part number: <b>1626210011</b></p>
+								</div>
+								<div class="price block__price">
+									$88.99
+								</div>
+								<div class="quantity block__quantity">
+									3
+								</div>
+								<div class="subtotal block__subtotal">
+									$266.97
+									<div class="subtotal__image">
+										<form action="#">
+											<input id="key2" type="checkbox">
+											<label class="key" for="key2"></label>
+											<img class="img__br" src="img/intro_img/pd.png" alt="">
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="block__content">
+								<div class="picture block__picture">
+									<div class="number">3</div>
+									<img src="img/intro_img/image.png" alt="">
+								</div>
+								<div class="brand block__brand">
+									toyota
+								</div>
+								<div class="name block__name">
+									New OEM Toyota Land Cruiser 80 Series Or Lexus LX 450 Air...
+									<p class="block__name__part">Part number: <b>1626210011</b></p>
+								</div>
+								<div class="price block__price">
+									$5.10
+								</div>
+								<div class="quantity block__quantity">
+									1
+								</div>
+								<div class="subtotal block__subtotal">
+									$5.10
+									<div class="subtotal__image">
+										<form action="#">
+											<input id="key3" type="checkbox">
+											<label class="key" for="key3"></label>
+											<img class="img__br" src="img/intro_img/pd.png" alt="">
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="block__content">
+								<div class="picture block__picture">
+									<div class="number">4</div>
+									<img src="img/intro_img/image.png" alt="">
+								</div>
+								<div class="brand block__brand">
+									toyota
+								</div>
+								<div class="name block__name">
+									New OEM Toyota Land Cruiser 80 Series Or Lexus LX 450 Air...
+									<p class="block__name__part">Part number: <b>1626210011</b></p>
+								</div>
+								<div class="price block__price">
+									$8899.10
+								</div>
+								<div class="quantity block__quantity">
+									1
+								</div>
+								<div class="subtotal block__subtotal">
+									$8899.10
+									<div class="subtotal__image">
+										<form action="#">
+											<input id="key4" type="checkbox">
+											<label class="key" for="key4"></label>
+											<img class="img__br" src="img/intro_img/pd.png" alt="">
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="block__content">
+								<div class="picture block__picture">
+									<div class="number">5</div>
+									<img src="img/intro_img/image.png" alt="">
+								</div>
+								<div class="brand block__brand">
+									toyota
+								</div>
+								<div class="name block__name">
+									New OEM Toyota Land Cruiser 80 Series Or Lexus LX 450 Air...
+									<p class="block__name__part">Part number: <b>1626210011</b></p>
+								</div>
+								<div class="price block__price">
+									$2.00
+								</div>
+								<div class="quantity block__quantity">
+									1
+								</div>
+								<div class="subtotal block__subtotal">
+									$2.00
+									<div class="subtotal__image">
+										<form action="#">
+											<input id="key5" type="checkbox">
+											<label class="key" for="key5"></label>
+											<img class="img__br" src="img/intro_img/pd.png" alt="">
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="block__content">
+								<div class="picture block__picture">
+									<div class="number">6</div>
+									<img src="img/intro_img/image.png" alt="">
+								</div>
+								<div class="brand block__brand">
+									toyota
+								</div>
+								<div class="name block__name">
+									New OEM Toyota Land Cruiser 80 Series Or Lexus LX 450 Air...
+									<p class="block__name__part">Part number: <b>1626210011</b></p>
+								</div>
+								<div class="price block__price">
+									$125.00
+								</div>
+								<div class="quantity block__quantity">
+									20
+								</div>
+								<div class="subtotal block__subtotal">
+									$2500.00
+									<div class="subtotal__image">
+										<form action="#">
+											<input id="key6" type="checkbox">
+											<label class="key" for="key6"></label>
+											<img class="img__br" src="img/intro_img/pd.png" alt="">
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="block__content">
+								<div class="picture block__picture">
+									<div class="number">7</div>
+									<img src="img/intro_img/image.png" alt="">
+								</div>
+								<div class="brand block__brand">
+									toyota
+								</div>
+								<div class="name block__name">
+									New OEM Toyota Land Cruiser 80 Series Or Lexus LX 450 Air...
+									<p class="block__name__part">Part number: <b>1626210011</b></p>
+								</div>
+								<div class="price block__price">
+									$125.00
+								</div>
+								<div class="quantity block__quantity">
+									20
+								</div>
+								<div class="subtotal block__subtotal">
+									$2500.00
+									<div class="subtotal__image">
+										<form action="#">
+											<input id="key7" type="checkbox">
+											<label class="key" for="key7"></label>
+											<img class="img__br" src="img/intro_img/pd.png" alt="">
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="block__content">
+								<div class="picture block__picture">
+									<div class="number">8</div>
+									<img src="img/intro_img/image.png" alt="">
+								</div>
+								<div class="brand block__brand">
+									toyota
+								</div>
+								<div class="name block__name">
+									New OEM Toyota Land Cruiser 80 Series Or Lexus LX 450 Air...
+									<p class="block__name__part">Part number: <b>1626210011</b></p>
+								</div>
+								<div class="price block__price">
+									$125.00
+								</div>
+								<div class="quantity block__quantity">
+									20
+								</div>
+								<div class="subtotal block__subtotal">
+									$2500.00
+									<div class="subtotal__image">
+										<form action="#">
+											<input id="key8" type="checkbox">
+											<label class="key" for="key8"></label>
+											<img class="img__br" src="img/intro_img/pd.png" alt="">
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="order__summary__total">
+						<div class="block__psc">
+							25 pcs
+						</div>
+						<div class="block__total">
+							$11677.17
+						</div>
+					</div>
+					<div class="use__coupon">
+						use coupon code
+					</div>
+					<form class="coupon__form" action="#">
+						<input id="discount__code" class="discount__code" type="text" placeholder="Enter discount code">
+						<button class="apply__discount">apply discount</button>
+					</form>
+					<div class="shipping__block">
+						<div class="shipping__block__name">
+							shipping methods
+							<div class="img__faster">
+								<img class="img__rocket" src="img/intro_img/rocket.png" alt="">
+								Faster
+								<img class="img__rocket1" src="img/intro_img/pig.png" alt="">
+								Cheaper
+							</div>
+						</div>
+						<div class="block__checked">
+							<div class="block__checked1">
+								<input id="checked1" class="checked__radio" type="radio" name="radio">
+								<img class="img__checked" src="img/intro_img/checked/dhl-logo.png" alt="">
+								<div class="block__stand">
+									Standart
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+							<div class="block__checked1">
+								<input class="checked__radio" type="radio" name="radio">
+								<img class="img__checked2" src="img/intro_img/checked/fed-ex-active.png" alt="">
+								<div class="block__stand">
+									Standart
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+							<div class="block__checked1">
+								<input class="checked__radio" type="radio" name="radio">
+								<img class="img__checked3" src="img/intro_img/checked/ups-logo.png" alt="">
+								<div class="block__stand">
+									Standart
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+							<div class="block__checked1">
+								<input class="checked__radio" type="radio" name="radio">
+								<img class="img__checked" src="img/intro_img/checked/dhl-logo.png" alt="">
+								<div class="block__stand">
+									Standart
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+							<div class="block__checked1">
+								<input class="checked__radio" type="radio" name="radio">
+								<img class="img__checked2" src="img/intro_img/checked/fed-ex-active.png" alt="">
+								<div class="block__stand">
+									Standart
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+							<div class="block__checked1">
+								<input class="checked__radio" type="radio" name="radio">
+								<img class="img__checked3" src="img/intro_img/checked/ups-logo.png" alt="">
+								<div class="block__stand">
+									Economy Select
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+							<div class="block__checked1">
+								<input class="checked__radio" type="radio" name="radio">
+								<img class="img__checked" src="img/intro_img/checked/dhl-logo.png" alt="">
+								<div class="block__stand">
+									Express World
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+							<div class="block__checked1">
+								<input class="checked__radio" type="radio" name="radio">
+								<img class="img__checked2" src="img/intro_img/checked/fed-ex-active.png" alt="">
+								<div class="block__stand">
+									Standart
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+							<div class="block__checked1">
+								<input class="checked__radio" type="radio" name="radio">
+								<img class="img__checked3" src="img/intro_img/checked/ups-logo.png" alt="">
+								<div class="block__stand">
+									Standart
+								</div>
+								<div class="block__days">
+									Up to 7 days
+								</div>
+								<div class="block__dollars">
+									$18.99
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="shipping__total">
+						Total: <span class="span__shipping__total"> $11696.16</span>
+					</div>
+					<div class="payments__block">
+						<div class="payments__name">
+							payments methods
+						</div>
+						<div class="payments__content">
+							<div class="paypall">
+								<input id="pay1" type="radio" class="pay" name="pay">
+								<img src="img/intro_img/credit/paypal.png" alt="">
+								<div class="paypal__text">PayPal Express Checkout</div>
+							</div>
+							<div class="visa__credit">
+								<input type="radio" class="pay" name="pay">
+								<img src="img/intro_img/credit/visa.png" alt="">
+								<img src="img/intro_img/credit/mastercard.png" alt="">
+								<div class="pay__pal__text">Credit Card</div>
+							</div>
+						</div>
+					</div>
+					<div class="order__note">
+						order note
+					</div>
+					<form action="#" class="enter__comments">
+						<input type="text" placeholder="Enter comments" id="comment">
+					</form>
+					<div class="down__check">
+						<input id="sign__up" type="checkbox">
+						<label class="sign__up" for="sign__up">Sign up for Our Newsletter</label>
+						<div class="down__check">
+							<input id="i_agree" type="checkbox">
+							<a class="i_agree">I agree to the Terms and Conditions</a>
+						</div>
+					</div>
+					<div class="button__down">
+						<a class="pleace__order" href="#">Pleace Order</a>
+					</div>
+				</div>
+            </div>
+        </div>
+		<div class="social">
+			<div class="instagram">
+				<a class="instagram__site" href="#"></a>
+			</div>
+			<div class="facebook">
+				<a class="facebook__site" href="#"></a>
+			</div>
+			<div class="youtube">
+				<a class="youtube__site" href="#"></a>
+			</div>
+		</div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="f__message">
+                <div class="f__mail__message">
+                    <img class="f__mail" src="img/mail.png" alt="">
+                </div>
+                <div class="f__message_leave_1">
+                    <a class="f__message_leave" href="#">Leave a message</a>
+                </div>
+            </div>
+            <div class="hd__content footer__content">
+                <div class="hd__logo"><span>Cruiser</span>Addiction</div>
+                <div class="footer__nav">
+                    <a class="footer_link" href="#">About Us</a>
+                    <a class="footer_link" href="#">Faq</a>
+                    <a class="footer_link" href="#">Warranty</a>
+                    <a class="footer_link" href="#">News</a>
+                    <a class="footer_link" href="#">Contact Us</a>
+                    <a class="footer_link" href="#">Brands</a>
+                </div>
+                <div class="f__date">
+                    <div class="f_all">All rights reserved</div>
+                    <div class="f_year">2019</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
