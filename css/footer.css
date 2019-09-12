@@ -1,0 +1,108 @@
+footer {
+    background: #ebf0f3;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    margin-top: 80px;
+}
+.footer__content {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer_link {
+    text-decoration: none;
+    padding: 12px;
+    opacity: 1;
+    transition: opacity .2s linear;
+    color: #2f4159;
+}
+
+.footer_link:hover {
+    opacity: 0.75;
+    transition: opacity .2s linear;
+}
+
+.f__date {
+    display: flex;
+    align-items: center;
+    width: 140px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.f_all {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    border-right: 2px solid #cc4542;
+}
+
+.f_year {
+    padding-left: 10px;
+}
+
+.f__message {
+    position: absolute;
+    top: -35px;
+}
+
+.f__mail__message {
+    width: 33px;
+    height: 37px;
+    background: #cc4542;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+.f__mail {
+    position: relative;
+    top: -5px;
+}
+
+.f__message_leave_1 {
+    display: flex;
+    position: relative;
+    top: -25px;
+    left: 33px;
+    color: #ffffff;
+    font-size: 11px;
+    width: 120px;
+    height: 20px;
+    font-weight: 500;
+    align-items: center;
+    background: #33435c;
+}
+
+
+
+.f__message_leave {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 11px;
+    width: 120px;
+    height: 20px;
+    font-weight: 500;
+    padding: 4px 7px;
+    background: #33435c;
+}
+
+.f__mail__message:checked + .f__message_leave_1 {
+
+}
