@@ -1,0 +1,35 @@
+1) node -v > версия
+2) git --version 
+3) cd + путь к дериктории cd Desktop\...
+4) cd ..  > назад
+
+
+
+
+
+
+git
+5) git init - создать репозиторий
+6) git remote -v показать все репозитории
+7) git add (. - все файлы, или указать путь конкретного файла)
+8) git status проверка статуса
+9) git config --global/local user.name "
+10) git config --global/local user.email "
+11) git config - l проверить
+12) git commit (-m"" -коммент ) закомитить
+13) git push -u origin master - залить на сайт
+14) git pull (+название ветки - подтягиваем ветку, +название папки - подтягиваем папку) 
+15) git checkout -b "" создать и перейти в ветку
+16) git branch -a посмотреть список веток
+17) git checkout имя
+18) git merge имя ветки которую вливаем в ветку в которой сейчас находимся -  слияние веток 
+19) git revert ( откат последенего )
+20) git reset --hard 
+21) git config -l ( посмотреть изменения)
+22) git remote -v ( просмотр удаленые репозитории )
+23) git commit -amend -m "fix"
+24) git commit --amend --author "New Author Name <email@address.com>"
+25) .gitignore
+26) ? git diff master branch
+27) ? git cherry-pick
+28) git log просмотр коммитов
